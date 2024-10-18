@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(38, 73, 74);
+    transition: 1s ease-in-out;
+}
+
+.change{
+    border-radius: 10px;
+    border: 2px solid #000000;
+    background-color: rgb(124, 165, 247);
+    width: 150px;
+    height: 54px;
+    position: absolute;
+}
+
+.change:active{
+    background-color: rgb(72, 85, 113);
+}
+
+
+.sound__btn{
+    border-radius: 10px;
+    border: 2px solid #000000;
+    background-color: rgb(124, 165, 247);
+    width: 150px;
+    height: 54px;
+    position: absolute;
+    right: 20px;
+}
+
+.sound__btn:active{
+    background-color: rgb(72, 85, 113);
+}
